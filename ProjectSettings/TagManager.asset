@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GrindHitPoint
+  - WaterDrop
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - BackGround
+  - Doripper
+  - Pot
+  - Drop
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 2888984977
+    locked: 0
+  - name: Anime
+    uniqueID: 2163575223
+    locked: 0
+  - name: Anime2
+    uniqueID: 2654732459
+    locked: 0
+  - name: Doripper
+    uniqueID: 489313439
+    locked: 0
+  - name: Pot
+    uniqueID: 3044148653
+    locked: 0
+  - name: Drop
+    uniqueID: 202673825
+    locked: 0
+  - name: Collider
+    uniqueID: 1833884885
+    locked: 0

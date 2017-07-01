@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1381456984188518}
+  m_IsPrefabParent: 1
+--- !u!1 &1381456984188518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4844004160101316}
+  - component: {fileID: 114108948951488686}
+  m_Layer: 0
+  m_Name: CharacterPreference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4844004160101316
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1381456984188518}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 941.25, y: 1023.75, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114108948951488686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1381456984188518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f13735ba76b14319b2953fb4167868f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charaStatuses:
+  - Name: "\u30EB\u30A4"
+    Bitter: 5
+    BlinkImages:
+    - {fileID: 21300000, guid: 4465c2db0001a49d5bc86e78fb5f648a, type: 3}
+    - {fileID: 21300000, guid: d2c2c77ebe3fb4ad88fe3d12e8e2981c, type: 3}
+    - {fileID: 21300000, guid: 0e0926629576c44d78c0198abaae31f3, type: 3}
+    RequiredLevel: 0
+    StartComingHour: 0
+    EndComingHour: 24
+  - Name: "\u30DE\u30EB\u30B3"
+    Bitter: 1
+    BlinkImages:
+    - {fileID: 21300000, guid: c203a000d9d854a39a7fd1a7833092ef, type: 3}
+    - {fileID: 21300000, guid: c57f4b9dbbaa84cd3a989711543cf6e0, type: 3}
+    - {fileID: 21300000, guid: 3dcc7dacde90c4749900eddf38b8077d, type: 3}
+    RequiredLevel: 0
+    StartComingHour: 17
+    EndComingHour: 24
+  - Name: "\u30B3\u30CB\u30FC"
+    Bitter: 2
+    BlinkImages:
+    - {fileID: 21300000, guid: 34dabb179b35d442d803338e9559f037, type: 3}
+    - {fileID: 21300000, guid: b7188216145c24ad5993da0a6ebc230b, type: 3}
+    - {fileID: 21300000, guid: c813f6105389240a78c8f3c9859da6b6, type: 3}
+    RequiredLevel: 1
+    StartComingHour: 11
+    EndComingHour: 17
+  - Name: "\u30ED\u30FC\u30E9"
+    Bitter: 4
+    BlinkImages:
+    - {fileID: 21300000, guid: e53c9605626a94c54aab833670d799ea, type: 3}
+    - {fileID: 21300000, guid: ed4c4a1ef488940abad393bdd3e8895c, type: 3}
+    - {fileID: 21300000, guid: 77de32be40c07409d9573e002ed4725f, type: 3}
+    RequiredLevel: 0
+    StartComingHour: 11
+    EndComingHour: 17
+  - Name: "\u30A8\u30EA\u30FC"
+    Bitter: 3
+    BlinkImages:
+    - {fileID: 21300000, guid: afb28ebca82624801863dc59ce5d191c, type: 3}
+    - {fileID: 21300000, guid: 2eee9b40d11d04e5bb998c520b5d056a, type: 3}
+    - {fileID: 21300000, guid: e8ca78acb9daf42f99e287a58ab4d164, type: 3}
+    RequiredLevel: 0
+    StartComingHour: 0
+    EndComingHour: 5
+  - Name: "\u30A2\u30F3\u30EA"
+    Bitter: 1
+    BlinkImages:
+    - {fileID: 21300000, guid: 56ce5ff54488e4a2ea500f9359c13445, type: 3}
+    - {fileID: 21300000, guid: 213caa67c1e13438fbc4ea67303d77d6, type: 3}
+    - {fileID: 21300000, guid: 1d4330f8f124b496881448b5bf9675a2, type: 3}
+    RequiredLevel: 0
+    StartComingHour: 5
+    EndComingHour: 11
+  - Name: "\u30DB\u30FC\u30AD\u30F3\u30B9"
+    Bitter: 4
+    BlinkImages:
+    - {fileID: 21300000, guid: 9824fdbe5b6c7498a8e8717eb39faf7a, type: 3}
+    - {fileID: 21300000, guid: d8e9223e8ffeb46a7b0062b042d55a11, type: 3}
+    - {fileID: 21300000, guid: 76ee7f10fc69143719271217c147aa8c, type: 3}
+    RequiredLevel: 7
+    StartComingHour: 5
+    EndComingHour: 11
+  - Name: "\u30C7\u30D3\u30C3\u30C8"
+    Bitter: 3
+    BlinkImages:
+    - {fileID: 21300000, guid: 4aa294f65e0404dfbab4d2bdcf409982, type: 3}
+    - {fileID: 21300000, guid: 86b4a6fd407274b6195b0ec92413a658, type: 3}
+    - {fileID: 21300000, guid: 6c3148586901b4e9c95dfa4b63e3263b, type: 3}
+    RequiredLevel: 1
+    StartComingHour: 17
+    EndComingHour: 24
+  - Name: "\u30DC\u30B9"
+    Bitter: 5
+    BlinkImages:
+    - {fileID: 21300000, guid: d8b9cb0c1644e4c3ca29ef2e61d800e8, type: 3}
+    - {fileID: 21300000, guid: e95044d9030754de08f724b22fc3dd97, type: 3}
+    - {fileID: 21300000, guid: 2c7411a6898594d84ae5ac991159f0e6, type: 3}
+    RequiredLevel: 99
+    StartComingHour: 0
+    EndComingHour: 24
+  - Name: "\u30DE\u30C0\u30E0"
+    Bitter: 3
+    BlinkImages:
+    - {fileID: 21300000, guid: 84dfae03666224e17b5cf7252e4348f8, type: 3}
+    - {fileID: 21300000, guid: 35b9fd0d548ad4fe0b1fee691aabba24, type: 3}
+    - {fileID: 21300000, guid: 7e60fb5693fea4f26b15ea92e2fbb954, type: 3}
+    RequiredLevel: 4
+    StartComingHour: 11
+    EndComingHour: 17
+  - Name: "\u30B8\u30E5\u30EA\u30A2"
+    Bitter: 0
+    BlinkImages:
+    - {fileID: 21300000, guid: 771161c4026e949d7b0ba05dfd74f70f, type: 3}
+    - {fileID: 21300000, guid: 81a9144728eb74b9897b021b260f37ad, type: 3}
+    - {fileID: 21300000, guid: a591628ab55c44a6a836bf9b6e26cb8f, type: 3}
+    RequiredLevel: 8
+    StartComingHour: 5
+    EndComingHour: 11
+  - Name: "\u30A2\u30E9\u30F3"
+    Bitter: 4
+    BlinkImages:
+    - {fileID: 21300000, guid: fc66ffbe1ac1041e6960ad90a9c944e1, type: 3}
+    - {fileID: 21300000, guid: bb704452907a44339b33d414e501d811, type: 3}
+    - {fileID: 21300000, guid: dab528abb75a244a0a4c62caf85cedd1, type: 3}
+    RequiredLevel: 5
+    StartComingHour: 0
+    EndComingHour: 5
+  - Name: "\u30D0\u30C8\u30EA\u30C3\u30AF"
+    Bitter: 3
+    BlinkImages:
+    - {fileID: 21300000, guid: 60c918faab291419283b39e74a498870, type: 3}
+    - {fileID: 21300000, guid: 9154af2813fb84b378c4310eb22a81cb, type: 3}
+    - {fileID: 21300000, guid: e70329ef735ca48f2a471018a863b761, type: 3}
+    RequiredLevel: 2
+    StartComingHour: 17
+    EndComingHour: 24
+  - Name: "\u30B7\u30E5\u30BF\u30A4\u30CA\u30FC"
+    Bitter: 5
+    BlinkImages:
+    - {fileID: 21300000, guid: 930ec92d652754f7da6ec121d57b69e5, type: 3}
+    - {fileID: 21300000, guid: 5e8fead7d0d1647f8bc663d254f3918e, type: 3}
+    - {fileID: 21300000, guid: dda0d2098c3ea4343baa5a342b9f8b43, type: 3}
+    RequiredLevel: 10
+    StartComingHour: 0
+    EndComingHour: 24
